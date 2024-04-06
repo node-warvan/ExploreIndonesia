@@ -1,0 +1,67 @@
+nav .container{
+	padding: 2px;/*mengatur padding pada navbar*/
+}
+
+.carousel-item img{
+	padding-top: 50px;/*mengatur padding atas pada gambar*/
+	height: 670px;/*mengatur tinggi gambar*/
+	width: 1350px;/*mengatur lebar gambar*/
+}
+
+.carousel-item .display-4{
+	margin-top: -400px;/*mengatur margin atas pada judul*/
+}
+
+.container h2{
+	padding-top: 80px;/*mengatur padding atas pada jdudl*/
+	padding-left: 20px;/*mengatur padding kiri pada judul*/
+}
+
+.container .card-deck{
+	padding: 20px;/*mengatur padding pada card deck tempat wisata*/
+}
+
+.card:hover{
+	transition: 0.3s;/*mengatur transisi pada kartu ketika kursor diarahkan ke kartu*/
+	transform: scale(1.02);/*pada saat kursor diarahkan ke card akan membesar sesuai skala*/
+	box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);/*menambahkan bayangan pada kartu*/
+
+}
+
+.container .card-deck img{
+	height: 200px;/*mengatur tinggi gambar destinasi*/
+}
+
+.embed-responsive .embed-responsive-item iframe{
+	height: 200px;/*mengatur tinggi frame video*/
+	width: 100px;/*mengatur lebar frame video*/
+}
+
+footer .container{
+	margin-top: 30px;/*mengatur margin atas pada footer*/
+	color: white;/*mengatur warna huruf pada footer*/
+	text-align: center;/*mengatur posisi huruf pada footer*/
+}
+
+footer .container .row .col-md-12{
+	margin-top: 30px;/*mengatur margin atas pada kolom footer*/
+	text-align: center;/*mengatur posisi huruf pada kolom footer*/
+	padding-top: 10px;/*mengatur padding atas pada kolom footer*/
+}
+
+footer .container .row .col-md-12 h6{
+	font-size: 19px;/*mengatur ukuran huruf header 6 pada footer*/
+	padding-bottom: 5px;/*mengatur padding bawah header 6 pada footer*/
+	font-weight: bold;/*mengatur bold header 6 pada footer*/
+}
+
+footer .container .row .col-md-5{
+	margin-bottom: 3px;/*mengatur margin bawah pada kolom footer*/
+	text-align: justify;/*membuat huruf pada kolom footer menjadi rata kanan kiri*/
+}
+
+footer .container .row .col-md-12 a{
+	padding: 10px;/*mengatur padding list pada footer*/
+	height: 10px;/*mengatur tinggi list pada footer*/
+	width: 10px;/*mengatur lebar list pada footer*/
+} 
